@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385AC8FB1CE0EC980043A2BC /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 385AC8F91CE0EC980043A2BC /* libSOIL.a */; };
+		385AC8FC1CE0EC980043A2BC /* libSOIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 385AC8FA1CE0EC980043A2BC /* libSOIL.dylib */; };
+		385AC8FF1CE59B0C0043A2BC /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 385AC8FD1CE59B0C0043A2BC /* libGLEW.a */; };
+		385AC9001CE59B0C0043A2BC /* libGLEW.1.13.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 385AC8FE1CE59B0C0043A2BC /* libGLEW.1.13.0.dylib */; };
+		38DC79A91C63964400964348 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38DC79A81C63964400964348 /* main.cpp */; };
+		38DC79B01C63974000964348 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC79AF1C63974000964348 /* OpenGL.framework */; };
+		38DC79BD1C63977000964348 /* CGTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38DC79B21C63977000964348 /* CGTexture.cpp */; };
+		38DC79BE1C63977000964348 /* glm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38DC79B61C63977000964348 /* glm.cpp */; };
+		38DC79C01C63977000964348 /* trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38DC79BB1C63977000964348 /* trackball.cpp */; };
+		38DC79C61C63989100964348 /* libAntTweakBar.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC79C31C63989100964348 /* libAntTweakBar.dylib */; };
+		38DC79CB1C63993F00964348 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC79CA1C63993F00964348 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38DC79A31C63964400964348 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		385AC8F91CE0EC980043A2BC /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = /opt/local/lib/libSOIL.a; sourceTree = "<absolute>"; };
+		385AC8FA1CE0EC980043A2BC /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = /opt/local/lib/libSOIL.dylib; sourceTree = "<absolute>"; };
+		385AC8FD1CE59B0C0043A2BC /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = /usr/local/Cellar/glew/1.13.0/lib/libGLEW.a; sourceTree = "<absolute>"; };
+		385AC8FE1CE59B0C0043A2BC /* libGLEW.1.13.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.13.0.dylib; path = /usr/local/Cellar/glew/1.13.0/lib/libGLEW.1.13.0.dylib; sourceTree = "<absolute>"; };
+		38DC79A51C63964400964348 /* IBL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IBL; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DC79A81C63964400964348 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		38DC79AF1C63974000964348 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		38DC79B11C63977000964348 /* bunny.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bunny.obj; sourceTree = "<group>"; };
+		38DC79B21C63977000964348 /* CGTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGTexture.cpp; sourceTree = "<group>"; };
+		38DC79B31C63977000964348 /* CGTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTexture.h; sourceTree = "<group>"; };
+		38DC79B41C63977000964348 /* Cook-Torrorence.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = "Cook-Torrorence.frag"; sourceTree = "<group>"; };
+		38DC79B51C63977000964348 /* Cook-Torrorence.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = "Cook-Torrorence.vert"; sourceTree = "<group>"; };
+		38DC79B61C63977000964348 /* glm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glm.cpp; sourceTree = "<group>"; };
+		38DC79B71C63977000964348 /* glm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm.h; sourceTree = "<group>"; };
+		38DC79BB1C63977000964348 /* trackball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trackball.cpp; sourceTree = "<group>"; };
+		38DC79BC1C63977000964348 /* trackball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackball.h; sourceTree = "<group>"; };
+		38DC79C31C63989100964348 /* libAntTweakBar.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAntTweakBar.dylib; path = /usr/local/lib/libAntTweakBar.dylib; sourceTree = "<absolute>"; };
+		38DC79CA1C63993F00964348 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DC79A21C63964400964348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385AC8FF1CE59B0C0043A2BC /* libGLEW.a in Frameworks */,
+				385AC9001CE59B0C0043A2BC /* libGLEW.1.13.0.dylib in Frameworks */,
+				385AC8FB1CE0EC980043A2BC /* libSOIL.a in Frameworks */,
+				385AC8FC1CE0EC980043A2BC /* libSOIL.dylib in Frameworks */,
+				38DC79CB1C63993F00964348 /* GLUT.framework in Frameworks */,
+				38DC79C61C63989100964348 /* libAntTweakBar.dylib in Frameworks */,
+				38DC79B01C63974000964348 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DC799C1C63964400964348 = {
+			isa = PBXGroup;
+			children = (
+				38DC79A71C63964400964348 /* IBL */,
+				38DC79C91C63989A00964348 /* library */,
+				38DC79A61C63964400964348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DC79A61C63964400964348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DC79A51C63964400964348 /* IBL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DC79A71C63964400964348 /* IBL */ = {
+			isa = PBXGroup;
+			children = (
+				38DC79A81C63964400964348 /* main.cpp */,
+				38DC79B11C63977000964348 /* bunny.obj */,
+				38DC79B21C63977000964348 /* CGTexture.cpp */,
+				38DC79B31C63977000964348 /* CGTexture.h */,
+				38DC79B41C63977000964348 /* Cook-Torrorence.frag */,
+				38DC79B51C63977000964348 /* Cook-Torrorence.vert */,
+				38DC79B61C63977000964348 /* glm.cpp */,
+				38DC79B71C63977000964348 /* glm.h */,
+				38DC79BB1C63977000964348 /* trackball.cpp */,
+				38DC79BC1C63977000964348 /* trackball.h */,
+			);
+			path = IBL;
+			sourceTree = "<group>";
+		};
+		38DC79C91C63989A00964348 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				38DC79C31C63989100964348 /* libAntTweakBar.dylib */,
+				385AC8FD1CE59B0C0043A2BC /* libGLEW.a */,
+				385AC8FE1CE59B0C0043A2BC /* libGLEW.1.13.0.dylib */,
+				385AC8F91CE0EC980043A2BC /* libSOIL.a */,
+				385AC8FA1CE0EC980043A2BC /* libSOIL.dylib */,
+				38DC79CA1C63993F00964348 /* GLUT.framework */,
+				38DC79AF1C63974000964348 /* OpenGL.framework */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DC79A41C63964400964348 /* IBL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DC79AC1C63964400964348 /* Build configuration list for PBXNativeTarget "IBL" */;
+			buildPhases = (
+				38DC79A11C63964400964348 /* Sources */,
+				38DC79A21C63964400964348 /* Frameworks */,
+				38DC79A31C63964400964348 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBL;
+			productName = IBL;
+			productReference = 38DC79A51C63964400964348 /* IBL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DC799D1C63964400964348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sylvanus;
+				TargetAttributes = {
+					38DC79A41C63964400964348 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 38DC79A01C63964400964348 /* Build configuration list for PBXProject "IBL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38DC799C1C63964400964348;
+			productRefGroup = 38DC79A61C63964400964348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DC79A41C63964400964348 /* IBL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DC79A11C63964400964348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DC79BE1C63977000964348 /* glm.cpp in Sources */,
+				38DC79A91C63964400964348 /* main.cpp in Sources */,
+				38DC79C01C63977000964348 /* trackball.cpp in Sources */,
+				38DC79BD1C63977000964348 /* CGTexture.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38DC79AA1C63964400964348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38DC79AB1C63964400964348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38DC79AD1C63964400964348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					/Users/Sylvanus/Documents/AntTweakBar/include,
+					/opt/local/include/SOIL,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Sylvanus/Documents/AntTweakBar/lib,
+					/opt/local/lib,
+					/usr/local/lib,
+					/usr/local/Cellar/glew/1.13.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38DC79AE1C63964400964348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					/Users/Sylvanus/Documents/AntTweakBar/include,
+					/opt/local/include/SOIL,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Sylvanus/Documents/AntTweakBar/lib,
+					/opt/local/lib,
+					/usr/local/lib,
+					/usr/local/Cellar/glew/1.13.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DC79A01C63964400964348 /* Build configuration list for PBXProject "IBL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DC79AA1C63964400964348 /* Debug */,
+				38DC79AB1C63964400964348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DC79AC1C63964400964348 /* Build configuration list for PBXNativeTarget "IBL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DC79AD1C63964400964348 /* Debug */,
+				38DC79AE1C63964400964348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DC799D1C63964400964348 /* Project object */;
+}
