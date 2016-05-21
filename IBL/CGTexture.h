@@ -34,5 +34,5 @@ extern int textpoint;
 extern unsigned int textureObjects[MAXTEX];
 void initTextureList();
 void soil_texture(int item, GLuint& ID, const char* filepath);
-GLuint loadCubemap(std::vector<const GLchar*> faces);
+GLuint loadCubemap();
 #endif /* cgTexture_h */

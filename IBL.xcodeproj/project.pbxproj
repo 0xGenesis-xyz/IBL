@@ -40,7 +40,6 @@
 		38DC79A51C63964400964348 /* IBL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IBL; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DC79A81C63964400964348 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		38DC79AF1C63974000964348 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		38DC79B11C63977000964348 /* bunny.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bunny.obj; sourceTree = "<group>"; };
 		38DC79B21C63977000964348 /* CGTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGTexture.cpp; sourceTree = "<group>"; };
 		38DC79B31C63977000964348 /* CGTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTexture.h; sourceTree = "<group>"; };
 		38DC79B41C63977000964348 /* Cook-Torrorence.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = "Cook-Torrorence.frag"; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				38DC79A81C63964400964348 /* main.cpp */,
-				38DC79B11C63977000964348 /* bunny.obj */,
 				38DC79B21C63977000964348 /* CGTexture.cpp */,
 				38DC79B31C63977000964348 /* CGTexture.h */,
 				38DC79B41C63977000964348 /* Cook-Torrorence.frag */,
